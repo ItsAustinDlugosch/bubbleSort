@@ -1,0 +1,60 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Var",
+      "name": "unsortedIntegers",
+      "printedName": "unsortedIntegers",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[Swift.Int]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:6Simple16unsortedIntegersSaySiGvp",
+      "mangledName": "$s6Simple16unsortedIntegersSaySiGvp",
+      "moduleName": "Simple",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage",
+        "RawDocComment"
+      ],
+      "isLet": true,
+      "hasStorage": true
+    },
+    {
+      "kind": "Function",
+      "name": "bubbleSort",
+      "printedName": "bubbleSort()",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:6Simple10bubbleSortyyF",
+      "mangledName": "$s6Simple10bubbleSortyyF",
+      "moduleName": "Simple",
+      "declAttributes": [
+        "RawDocComment"
+      ],
+      "funcSelfKind": "NonMutating"
+    }
+  ],
+  "json_format_version": 6
+}
