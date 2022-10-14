@@ -4,41 +4,85 @@
   "printedName": "TopLevel",
   "children": [
     {
-      "kind": "Var",
-      "name": "unsortedIntegers",
-      "printedName": "unsortedIntegers",
+      "kind": "Function",
+      "name": "swap",
+      "printedName": "swap(arr:one:two:)",
       "children": [
         {
           "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        },
+        {
+          "kind": "TypeNominal",
           "name": "Array",
-          "printedName": "[Swift.Int]",
+          "printedName": "[Swift.String]",
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "Int",
-              "printedName": "Swift.Int",
-              "usr": "s:Si"
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
             }
           ],
+          "paramValueOwnership": "InOut",
           "usr": "s:Sa"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Int",
+          "printedName": "Swift.Int",
+          "usr": "s:Si"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Int",
+          "printedName": "Swift.Int",
+          "usr": "s:Si"
         }
       ],
-      "declKind": "Var",
-      "usr": "s:6Simple16unsortedIntegersSaySiGvp",
-      "mangledName": "$s6Simple16unsortedIntegersSaySiGvp",
+      "declKind": "Func",
+      "usr": "s:6Simple4swap3arr3one3twoySaySSGz_S2itF",
+      "mangledName": "$s6Simple4swap3arr3one3twoySaySSGz_S2itF",
       "moduleName": "Simple",
-      "declAttributes": [
-        "HasInitialValue",
-        "HasStorage",
-        "RawDocComment"
-      ],
-      "isLet": true,
-      "hasStorage": true
+      "funcSelfKind": "NonMutating"
     },
     {
       "kind": "Function",
       "name": "bubbleSort",
-      "printedName": "bubbleSort()",
+      "printedName": "bubbleSort(arr:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[Swift.String]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "paramValueOwnership": "InOut",
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:6Simple10bubbleSort3arrySaySSGz_tF",
+      "mangledName": "$s6Simple10bubbleSort3arrySaySSGz_tF",
+      "moduleName": "Simple",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Function",
+      "name": "main",
+      "printedName": "main()",
       "children": [
         {
           "kind": "TypeNominal",
@@ -47,12 +91,9 @@
         }
       ],
       "declKind": "Func",
-      "usr": "s:6Simple10bubbleSortyyF",
-      "mangledName": "$s6Simple10bubbleSortyyF",
+      "usr": "s:6Simple4mainyyF",
+      "mangledName": "$s6Simple4mainyyF",
       "moduleName": "Simple",
-      "declAttributes": [
-        "RawDocComment"
-      ],
       "funcSelfKind": "NonMutating"
     }
   ],

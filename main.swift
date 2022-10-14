@@ -1,18 +1,13 @@
-var wordsList : [String] = []
-while let input = readLine() {
-    wordsList.append(input)
-}
-
 func swap(arr: inout [String], one: Int, two: Int) {
     let placeholder = arr[one]
     arr[one] = arr[two]
     arr[two] = placeholder
 }
 
-func bubbleSort(arr: inout[String]) -> [String] {
+func bubbleSort(arr: inout[String]) {
     var swaps = 0
     if arr.count == 1 {
-        return arr
+        return
     }
     
     repeat {
@@ -24,6 +19,18 @@ func bubbleSort(arr: inout[String]) -> [String] {
             }
         }
     }  while swaps != 0
-    return arr
 }
-let sortedWords = bubbleSort(arr: &wordsList)
+
+
+func main() {
+    var wordsList : [String] = []
+    while let input = readLine() {
+        wordsList.append(input)
+    }
+    bubbleSort(arr: &wordsList)
+    for word in wordsList {
+        print(word)
+    }
+}
+
+main()
